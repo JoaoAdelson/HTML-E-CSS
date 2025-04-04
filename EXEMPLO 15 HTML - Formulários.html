@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exemplo 15 HTML - Formulários </title>
+</head>
+<body>
+    <div>
+        <h1>Exemplo 15 HTML - Formulários</h1>
+        <form action="PaginaDestino" method="get">
+            <div>
+                <label for="">Nome</label>
+                <input type="text" name="txtNameNome" id="txtNome">
+            </div>
+            <br>
+            <div>
+                <label for="">Data de Nascimento</label>
+                <input type="date" name="txtNameDataNascimento" id="txtDataNascimento">
+            </div>
+            <br>
+            <div>
+                <label for="">E-mail</label>
+                <input type="email" name="txtNameEmail" id="txtEmail">
+            </div>
+            <br>
+            <div>
+                <label for="">Estado Civil</label>
+                <select name="cboEstadoCivil" id="cboEstadoCivil">
+                    <option value="1">Casado</option>
+                    <option value="1">Solteiro</option>
+                    <option value="1">Divorciado</option>
+                    <option value="1">Viúvo</option>
+                    <option value="1">Tico-Tico-no-fubá</option>
+                    <option value="1">Outros</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Sexo</label><br>
+                <input type="radio" name="rdsexo" id="rdsexo" value="1"> Feminino
+                <input type="radio" name="rdsexo" id="rdsexo" value="1"> Masculino
+            </div>
+            <br>
+            <div>
+                <label for="">Escolha um ou mais áreas de interesse de atuação</label>
+                <input type="checkbox" name="ckbAreaAtuacao" id="ckbAreaAtuacao" value="1"> Front-End <br>
+                <input type="checkbox" name="ckbAreaAtuacao" id="ckbAreaAtuacao" value="1"> Back-End <br>
+                <input type="checkbox" name="ckbAreaAtuacao" id="ckbAreaAtuacao" value="1"> full-Stack <br>
+                <input type="checkbox" name="ckbAreaAtuacao" id="ckbAreaAtuacao" value="1"> Analista de Dados <br>
+                <input type="checkbox" name="ckbAreaAtuacao" id="ckbAreaAtuacao" value="1"> Analista de Requisitos <br>
+                <input type="checkbox" name="ckbAreaAtuacao" id="ckbAreaAtuacao" value="1"> Analista de Segurança <br>
+            </div>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+</body>
+</html>

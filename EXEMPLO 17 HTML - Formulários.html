@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 17 HTML - Formulário</title>
+</head>
+<body>
+    <form action="paginadestino.aspx" method="get">
+        <h1>Exemplo 17 HTML - Formulários</h1>
+        <fieldset>
+            <legend><strong>Dados Pessoais</strong></legend>
+            <div>
+                <label for="">Nome:</label>
+                <input type="text" name="txtNome" id="txtNome" required>
+            </div>
+            <br>
+            <div>
+                <label for="">Endereço:</label>
+                <input type="text" name="txtEndereco" id="txtEndereco">
+            </div>
+            <br>
+            <div>
+                <label for="">Cidade</label>
+                <input type="text" name="txtCidade" id="txtCidade">
+            </div>
+            <br>
+            <div>
+                <label for="">Estado</label>
+                <select name="cboEstadoCivil" id="cboEstadoCivil">
+                    <option value="1">Brasilia</option>
+                    <option value="1">Maranhão</option>
+                    <option value="1">Ceará</option>
+                    <option value="1">São Paulo</option>
+                    <option value="1">Goiás</option>
+                    <option value="1">Amapá</option>
+                    <option value="1">Rio de Janeiro</option>
+                    <option value="1">Rio Grande do Sul</option>
+                    <option value="1">Rio Grande do Norte</option>
+                </select>
+                    
+                </textarea>
+            </div>
+            <br>
+            
+        </fieldset>
+
+        <form action="paginadestino.aspx" method="get">
+            <fieldset>
+                <legend><strong>Dados Profissionais</strong></legend>
+                <div>
+                    <label for="">Natureza do Cargo</label><br>
+                    <input type="radio" name="rdcargo" id="rdcargo"> Gerência
+                    <input type="radio" name="rdcargo" id="rdcargo"> Financeiro
+                    <input type="radio" name="rdcargo" id="rdcargo"> Recepção
+                    <input type="radio" name="rdcargo" id="rdcargo"> Administrativo
+                    <input type="radio" name="rdcargo" id="rdcargo"> Jurídico
+                </div>
+                <br>
+                <div>
+                    <label for="">Área de interesse</label><br>
+                    <input type="checkbox" name="cboAreaInteresse" id="cboAreaInteresse"> Gerência
+                    <input type="checkbox" name="cboAreaInteresse" id="cboAreaInteresse"> Financeiro
+                    <input type="checkbox" name="cboAreaInteresse" id="cboAreaInteresse"> Recepção
+                    <input type="checkbox" name="cboAreaInteresse" id="cboAreaInteresse"> Administrativo
+                    <input type="checkbox" name="cboAreaInteresse" id="cboAreaInteresse"> Juridico
+                    
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="">Mini-Curriculo</label>
+                    <textarea name="txtFaleMais" id="txtFaleMais" cols="50" row="5000">
+                        
+                    </textarea>
+                </div>
+                <br>
+                
+            </fieldset>
+            <br>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+    </form>
+</body>
+</html>

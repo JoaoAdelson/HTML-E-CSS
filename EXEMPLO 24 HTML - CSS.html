@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 24 HTML - CSS</title>
+    <style>
+        .form-conteiner{
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        }
+        .form-group{
+            margin-bottom: 15px;
+        }
+        .form-group label{
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+            width: 60%;
+        }
+        .form-group button{
+            width: 100%;
+            padding: 10px;
+            background-color: lightgreen;
+            color: #333;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .form-group button:hover{
+            background-color: #45a049;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="form-conteiner">
+        <h1>Exempo 24 HTML - CSS - Seletores</h1>
+        <form action="paginaDestino.html" method="post">
+            <div class="form-group">
+                <label for="">Nome</label>
+                <input type="text" name="txtNome" id="txtNome">
+            </div>
+            <div class="form-group">
+                <label for="">E-mail</label>
+                <input type="email" name="txtEmail" id="txtEmail">
+            </div>
+            <div class="form-group">
+                <label for="">Senha</label>
+                <input type="password" name="txtSenha" id="txtSenha">
+            </div>
+            <div class="form-group">
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

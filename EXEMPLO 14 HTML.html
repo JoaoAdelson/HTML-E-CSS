@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 14 - Formulários HTML</title>
+</head>
+
+<body>
+    <form action="paginaDestino.aspx" method="post">
+        <h1>Formulários</h1>
+        <p>Os formulários em html são usados par coletar informações dos usuários, como login, cadastro, pesquisas
+            eenvio de dados. O elemento principal é o &lt;form&gt;, que agrupa os campos de entrada</p>
+        <h2>Método de POST em formulários HTML</h2>
+        <p> O método POST é uma das formas de envio de dados em formulários HTML. Diferentemente do GET, os dados são enviados no corpo da requisição HTTP, tornando-os mais seguros e invisíveis na URL. Isso é útil para formulários que envovem login, cadastro, envio de arquivos e alterações de banco de dados.</p>
+
+
+        <div>
+            <div>
+                <label for="">Usuário</label><br>
+                <input type="text" name="txtNameUsuario" id="txtUsuario">
+            </div>
+            <br>
+            <div>
+                <label for="">Senha</label><br>
+                <input type="password" name="txtNameSenha" id="txtSenha">
+            </div>
+            <br>
+            <div>
+                <button type="submit">Entrar</button>
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>

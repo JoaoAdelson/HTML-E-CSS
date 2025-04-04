@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 23 HTML - CSS</title>
+    <style>
+        #div1{
+            margin: 15px;
+            padding: 15px;
+            color: crimson;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+            border-top: double lightskyblue;
+            text-transform: uppercase;
+        }
+        #div2{
+            margin: 30px;
+            padding: 10px;
+            border-top: double lightskyblue;
+            text-transform: uppercase;
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+            text-transform: lowercase;
+        }
+        #paragrafo{
+            background-color: chartreuse;
+            margin: 30px;
+            padding: 10px;
+            text-transform: uppercase;
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+            text-transform: capitalize;
+        }
+        input{
+            display:block;
+            width: 150px;
+        }
+        label{
+            font-weight: bold;
+            color: cyan;
+            font-size: 15px ;
+        }
+    </style>
+</head>
+<body>
+    <H1>Exemplo 23 HTML - CSS Seletores de ID</H1>
+    <div id="div1">
+        <p >O seletor de ID é aquele que aplica a regra CSS a um comonente HTML que tenha um atributo ID no componente HTML.</p>
+        <p id="paragrafo">Esse seletor de ID deve ser aplicado a um único elemento HTML, haja a vista, que em tese ele deve ser único. Além disso, esse seletor tem prioridade máxima sobre os demais seletores(Classe e Tipo) por exemplo </p>
+    </div>
+    <div id="div2">
+        <p>Neste exemplo estamos utilizando seletores de ID para estilizar o documento HTML atual.</p>
+        <div>
+            <label for="">Nome</label>
+            <input type="text" name="txtNome" id="txtNome">
+        </div>
+        <div>
+            <label for="">Data de nascimento</label>
+            <input type="date" name="txtDataNascimento" id="txtDataNascimento">
+        </div>
+        <div>
+            <label for="">Ano Nascimento</label>
+            <input type="number" name="txtAnoNascimento" id="txtAnoNascimento">
+        </div>
+        <div>
+            <button id="estiloButton">Enviar</button>
+        </div>
+    </div>
+</body>
+</html>

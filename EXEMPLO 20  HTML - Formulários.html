@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 20 HTML - Formulário</title>
+</head>
+
+<body>
+    <form action="paginaDestino" method="post"></form>
+    <fieldset>
+        <legend>Pedido</legend>
+        <div>
+            <label for="">Funcionário:</label><br>
+            <select name="cboFuncionario" id="cboFuncionario">
+                <option value="">José das Couves</option>
+                <option value="">LARA DAS COUVES</option>
+                <option value="">REINALDOS DAS COUVES</option>
+                <option value="">CARLOS DAS COUVES</option>
+                <option value="">LARIS DAS COUVES</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Cliente:</label><br>
+            <select name="cboFuncionario" id="cboFuncionario">
+                <option value="">José das Couves</option>
+                <option value="">LARA DAS COUVES</option>
+                <option value="">REINALDOS DAS COUVES</option>
+                <option value="">CARLOS DAS COUVES</option>
+                <option value="">LARIS DAS COUVES</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Data da Compra:</label><br>
+            <input type="date" name="txtDataCompra" id="txtDataCompra">
+        </div>
+        <div>
+            <label for="">Valor Total:</label><br>
+            <input type="text" name="txtValor" id="txtValor" placeholder="0,00">
+        </div>
+    </fieldset>
+    <fieldset>
+        <div>
+            <label for="">Pedidos Cadastrados</label>
+            <table border="1">
+                <thead>
+                    <tr>
+                    <th>Código</th>
+                    <th>Funcionário</th>
+                    <th>Cliente</th>
+                    <th>Data da Compra</th>
+                    <th>Valor da Compra</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0001</td>
+                        <td>José da Silva</td>
+                        <td>Mario José da Silva </td>
+                        <td>01/01/01</td>
+                        <td>R$200,00</td>
+                    </tr>
+                    <tr>
+                        <td>0002</td>
+                        <td>José da Silva</td>
+                        <td>LARA José da Silva </td>
+                        <td>01/01/01</td>
+                        <td>R$300,00</td>
+                    </tr>
+                    <tr>
+                        <td>0003</td>
+                        <td>José da Silva</td>
+                        <td>Pedro José da Silva </td>
+                        <td>01/01/01</td>
+                        <td>R$400,00</td>
+                    </tr>
+                    <tr>
+                        <td>0004</td>
+                        <td>José da Silva</td>
+                        <td>Joao José da Silva </td>
+                        <td>01/01/01</td>
+                        <td>R$500,00</td>
+                    </tr>
+                    <tr>
+                        <td>0005</td>
+                        <td>José da Silva</td>
+                        <td>Gabriel José da Silva </td>
+                        <td>01/01/01</td>
+                        <td>R$600,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div>
+            <button type="submit">Registrar Venda</button>
+            <button type="submit">Listar Vendas</button>
+            
+        </div>
+    </fieldset>
+</body>
+
+</html>

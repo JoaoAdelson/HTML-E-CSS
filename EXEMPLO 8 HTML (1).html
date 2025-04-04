@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Exemplo 8 HTML</title>
+</head>
+<body>
+    <h1>Exemplo 8 HTML - Uso dos elementos de imagem(img), video e iframe.</h1>
+    <h2>Elemento de imagem img</h2>
+    <p>O elemento Html que represenata imagens é a tag &lt; img &gt;. essa tag é usada para exibir imagens, Para utiliza-la podemos usar imagens dos mais variados formatos, para isso devemos usar os seguintes atributos: src, que representa o caminho da imagem e alt, que represeta um texto alternativo, que será carregada quando a imagem não estiver disponivelk</p>
+    <h2>Exemplo do uso da tag img</h2>
+    <img src="Imagem RIOAZUL.jpeg" alt="Imagem da música álem do Rio Azul">
+    <h2> Exemplo 2 de imagem</h2>
+    <img src="IMAGEM2LOBODRAGAO.jpeg" alt="Dragão e lobo" width="300px">
+
+    <h3>Exemplo usando o figure, img e o figCaption</h3>
+    <p>Uma imagem com legenda descritiva</p>
+    <figure>
+        <img src="IMAGEM2LOBODRAGAO.jpeg" alt="Lobo na montanha" width="800">
+        <figcaption>Imagem de um Lobo na montanha</figcaption>
+    </figure>
+    <h3>Exemplo da incorporação de vídeos</h3>
+    <figure>
+        <video controls width ="400">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <figcaption>Video 1: Um vídeo de Exemplo (Big Buck Bunny)</figcaption>
+    </figure>
+
+    <h3>Exemplo do uso do Iframe - Incorporação de Vídeos do YouTube</h3>
+    <p>Exemplo de incorporação de dois vídeos do YouTube colocados lado a lado</p>
+    <div class="iframe-container">
+        <figure>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LRfk6DEfydw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <figcaption>Vídeo 2: Um tutorial rápido sobre HTML.</figcaption>
+        </figure>
+        <figure>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/daKU7soXDAU" title="MATHEUS RIZZO E CURITIBA CORAL - ALÉM DO RIO AZUL (live cover)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption>Vídeo 3: Além do Rio Azul - Matheus Rizzo e Curitiba Coral.</figcaption>
+        </figure>
+
+    </div>
+</body>
+</html>
