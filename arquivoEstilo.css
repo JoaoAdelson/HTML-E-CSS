@@ -1,0 +1,31 @@
+body{
+    margin: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+
+}
+.div1{
+    margin: 15px;
+    padding: 15px;
+    border-left: solid red 4px;
+    font-weight: 900;
+    background-color: rgb(255, 0, 0, 0.2);
+
+}
+
+.div2{
+    margin: 25px;
+    padding: 35px;
+    border-left: solid blue 4px;
+    font-weight: 900;
+    background-color: rgba(13, 0, 255, 0.2);
+
+}
+
+#paragrafo1{
+    font-style: italic;
+    color: dodgerblue;
+    font-weight: bold;
+    text-align: center;
+    
+}
